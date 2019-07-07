@@ -1,11 +1,5 @@
 # Fast setup for using DeepSpeech to transcribe audio files for free
 
-title: Trancribe audio files for free with Mozilla DeepSpeech
-layout: post
-author: Daniel Low
-
----
-
 #### Intro
 
 Instead of paying for transcriptions, speech recognition engines have been improved to the point where relatively decent automatic transcriptions can be performed for free. These transcriptions can then be edited by a human annotator if required, which would reduce costs.  
