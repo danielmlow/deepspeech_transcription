@@ -45,11 +45,14 @@ Set paths in config.py. Beyond the data and input directories with audio files w
 
 It will convert all audio files to 16kHz and 16 bit wav files into a temporary wav_dir, required by DeepSpeech. 
 
+
 Run:
 ```transcribe.py```
 
+
 More info:
 [https://github.com/mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech)
+
 
 #### Example audio files ground-truth transcription
 8455-210777-0068.wav:   "Your power is sufficient I said"
