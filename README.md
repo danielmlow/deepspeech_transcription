@@ -1,6 +1,5 @@
 # Fast setup for using DeepSpeech to transcribe audio files for free -- compare to Google Speech-to-Text
 
-
 #### Intro
 
 Instead of paying for transcriptions, speech recognition engines have been improved to the point where relatively decent automatic transcriptions can be performed for free. These transcriptions can then be edited by a human annotator if required, which would reduce costs.  
@@ -8,6 +7,7 @@ Instead of paying for transcriptions, speech recognition engines have been impro
 Mozilla, the open-source community that created Firefox, has developed [DeepSpeech](https://github.com/mozilla/DeepSpeech), which is an open source Speech-To-Text engine based on a [Baidu's Deep Speech model](https://arxiv.org/abs/1412.5567). They trained it on CommonVoice corpora, an effective approach to collecting data from the community across many languages (you can quickly contribute  [here](https://voice.mozilla.org/en)). Using the DeepSpeech 0.5.0 model provided below, they achieve 8.22% word error rate on the LibriSpeech clean test corpus. 
 
 Below is an fast setup to use DeepSpeech and the paid alternative Google Cloud Text-to-Speech (with a 300-minute free trial). I have found they perform similarly on certain audio files but Google's engine works considerably better on others (at least for now), although I did not perform any systematic/quantitative comparisons. It's a matter of trying it out on your audio files and perhaps preprocessing preprocessing them in different ways to try to improve performance.  
+
 #### Setup
 [Install python3](https://realpython.com/installing-python/)
 
@@ -72,8 +72,6 @@ your power is sufficient I said
 why should one halt on the way
 
 experience proves this
-
-
 
 
 
