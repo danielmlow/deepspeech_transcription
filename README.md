@@ -53,18 +53,24 @@ More info:
 
 #### Example audio files ground-truth transcription
 8455-210777-0068.wav:   "Your power is sufficient I said"
+
 4507-16021-0012.wav:     "Why should one halt on the way?"
+
 2830-3980-0043.wav:       "Experience proves this"
 
 
 #### DeepSpeech Results
 your power is sufficient i said
+
 why should one halt on the way
+
 *experience proof this
 
 #### Compare to Google Cloud Speech-to-Text
 your power is sufficient I said
+
 why should one halt on the way
+
 experience proves this
 
 
