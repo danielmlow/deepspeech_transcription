@@ -1,6 +1,5 @@
 # Fast setup for using DeepSpeech to transcribe audio files for free -- compare to Google Speech-to-Text
 
----
 
 #### Intro
 
