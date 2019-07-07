@@ -28,27 +28,27 @@ tar xvfz data/deepspeech-0.5.0-models.tar.gz # Unzips
 rm data/deepspeech-0.5.0-models.tar.gz
 ```
 
-This will output `./data/deepspeech-0.5.0-models/` directory. 
+This will output ./data/deepspeech-0.5.0-models/ directory. 
 
-Choose if you want to run DeepSpeech Google Cloud Speech-to-Text or both by setting parameters in `config.py`
+Choose if you want to run DeepSpeech Google Cloud Speech-to-Text or both by setting parameters in config.py
 
-To use Google Cloud API, obtain credentials [here](https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.135125617.-1992684214.1559066420) (1-year $300 free credit). More info [here](https://cloud.google.com/docs/authentication/production).
+To use Google Cloud API, obtain credentials here (1-year $300 free credit):
+https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.135125617.-1992684214.1559066420
+More info here: 
+https://cloud.google.com/docs/authentication/production
 
-Set paths in `config.py`. Beyond the data and input directories with audio files which you must place and set paths to, it will create all other directories that do not exist already.
+Set paths in config.py. Beyond the data and input directories with audio files which you must place and set paths to, it will create all other directories that do not exist already.
 
-It will convert all audio files to 16kHz and 16 bit wav files into a temporary `wav_dir`, required by DeepSpeech. 
+It will convert all audio files to 16kHz and 16 bit wav files into a temporary wav_dir, required by DeepSpeech. 
 
 
-**Finally, run:**
+Run:
+```transcribe.py```
 
-```
-transcribe.py
-```
 
 More info:
 [https://github.com/mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech)
 
-<br/>
 
 #### Example audio files ground-truth transcription
 
