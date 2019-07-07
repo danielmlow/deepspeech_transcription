@@ -1,0 +1,9 @@
+wget
+git-lfs
+deepspeech
+SpeechRecognition
+google-cloud
+google-cloud-storage
+google-api-python-client
+oauth2client
+
