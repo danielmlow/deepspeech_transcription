@@ -4,7 +4,7 @@ remove_wav_dir = True
 
 data_dir = './data/'
 input_dir = data_dir+'audio_examples/'
-google_credentials = data_dir+'My_First_Project-761280e25a00.json'  # 'project_0123.json' #Replace with your json file from:
+google_credentials = data_dir+ 'project_0123.json' #Replace with your json file from:
 '''
 https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.135125617.-1992684214.1559066420
 More info here:
